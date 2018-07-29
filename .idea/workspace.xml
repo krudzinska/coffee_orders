@@ -44,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="provider_edit.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="provider_edit.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/coffeeshop/templates/coffeeshop/provider_edit.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -98,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="providers_list.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="providers_list.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/coffeeshop/templates/coffeeshop/providers_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="84" lean-forward="true" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+            <state relative-caret-position="153">
+              <caret line="9" column="102" lean-forward="true" selection-start-line="9" selection-start-column="102" selection-end-line="9" selection-end-column="102" />
             </state>
           </provider>
         </entry>
@@ -143,11 +143,11 @@
         <option value="$PROJECT_DIR$/coffeeshop/views.py" />
         <option value="$PROJECT_DIR$/coffeeshop/templates/coffeeshop/base.html" />
         <option value="$PROJECT_DIR$/coffeeshop/templates/coffeeshop/login.html" />
-        <option value="$PROJECT_DIR$/coffeeshop/templates/coffeeshop/providers_list.html" />
         <option value="$PROJECT_DIR$/coffeeshop/templates/coffeeshop/offer_list.html" />
         <option value="$PROJECT_DIR$/coffeeshop/urls.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/coffeeshop/templates/coffeeshop/provider_edit.html" />
+        <option value="$PROJECT_DIR$/coffeeshop/templates/coffeeshop/providers_list.html" />
       </list>
     </option>
   </component>
@@ -335,13 +335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coffeeshop/templates/coffeeshop/providers_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="84" lean-forward="true" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coffeeshop/templates/coffeeshop/provider_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -414,6 +407,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coffeeshop/templates/coffeeshop/providers_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="102" lean-forward="true" selection-start-line="9" selection-start-column="102" selection-end-line="9" selection-end-column="102" />
         </state>
       </provider>
     </entry>
