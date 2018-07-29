@@ -7,7 +7,7 @@
                 <div class="jumbotron">
                     <h3>Provider: {{ provider.name }}</h3>
                     <span>Contact: <strong>{{ provider.contact }}</strong></span>
-                    <a class="btn btn-primary" href="{% url 'provider_detail' pk=provider.pk %}">Offer</a>
+                    <a class="btn btn-primary d-block" href="{% url 'provider_detail' pk=provider.pk %}">Offer</a>
                 </div>
     {% endfor %}
 
