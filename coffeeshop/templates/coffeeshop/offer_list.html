@@ -1,0 +1,13 @@
+{% extends 'coffeeshop/base.html' %}
+
+
+{% block content %}
+
+    {% for provider in providers %}
+                <div class="jumbotron">
+                    <p><strong>Offer: </strong>{{ provider.offer }}</p>
+                    <p class="blockquote-footer font-italic text-right">{{ provider.name }}</p>
+                </div>
+    {% endfor %}
+
+{% endblock %}

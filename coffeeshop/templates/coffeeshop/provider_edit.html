@@ -1,0 +1,9 @@
+{% extends 'coffeeshop/base.html' %}
+
+{% block content %}
+    <h3>Nowy dostawca</h3>
+    <form method="POST" class="jumbotron">{% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="save btn btn-outline-success btn-default">Save</button>
+    </form>
+{% endblock %}

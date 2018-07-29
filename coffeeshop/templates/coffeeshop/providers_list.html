@@ -1,0 +1,18 @@
+{% extends 'coffeeshop/base.html' %}
+
+
+{% block content %}
+
+    {% for provider in providers %}
+                <div class="jumbotron">
+                    <h3>Provider: {{ provider.name }}</h3>
+                    <span>Contact: <strong>{{ provider.contact }}</strong></span>
+                    <p><a href="{% url 'provider_detail' pk=provider.pk %}">Offer</a></p>
+                </div>
+    {% endfor %}
+
+    <div>
+        <a href="/provider/new/" class="btn btn-outline-primary btn-block mb-4">Add provider</a>
+    </div>
+
+{% endblock %}

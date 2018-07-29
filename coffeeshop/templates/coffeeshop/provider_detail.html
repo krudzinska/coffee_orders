@@ -1,0 +1,9 @@
+{% extends 'coffeeshop/base.html' %}
+
+{% block content %}
+    <div class="jumbotron">
+        <h2>{{ provider.name }}</h2>
+        <span><strong>{{ provider.contact }}</strong></span>
+        <p>{{ provider.offer }}</p>
+    </div>
+{% endblock %}
